@@ -1,0 +1,30 @@
+// Question 1
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.temporal.ChronoUnit;
+
+public class daySince {
+
+		public static void main(String[] args) {
+
+		ZonedDateTime now = ZonedDateTime.now(); 
+
+		LocalDate date = LocalDate.of(2001, Month.APRIL, 27);
+
+		LocalTime time = LocalTime.of(8, 35);
+
+		ZoneId zone = ZoneId.of("-05:00");
+
+		ZonedDateTime born = ZonedDateTime.of(date, time, zone);
+
+		long days = born.until(now, ChronoUnit.DAYS);
+
+		System.out.println("Number of Days Since Birth: "+days);
+
+		}
+
+		}
+    

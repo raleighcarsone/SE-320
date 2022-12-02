@@ -28,7 +28,7 @@ public class daySince {
 
 		}
 // Question 2
-
+	Requires: List 
     
 // Question 3
 	return this.lastName.toUpperCase().hashCode();

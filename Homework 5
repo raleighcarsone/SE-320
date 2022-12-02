@@ -32,3 +32,10 @@ public class daySince {
     
 // Question 3
 	return this.lastName.toUpperCase().hashCode();
+// Over the break as I was studying I went through the old homeworks. I had missed your comments and realized that I didnt submit part of (or in some cases all) of the assignments. This Semester is the first time that I am using Github and initially I didnt realize that I had to commit changes. I have gone through and updated/completed them and attached them here in hopes that I can potentially get some points for the work.
+	//HW 1
+	//	https://github.com/raleighcarsone/SE-320/blob/main/Homework%201
+	//HW 2
+	//	https://github.com/raleighcarsone/SE-320/blob/main/Homework%202
+	//HW 4 
+	//	https://github.com/raleighcarsone/raleighcarsone/blob/main/homework%204

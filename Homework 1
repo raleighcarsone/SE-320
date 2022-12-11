@@ -30,7 +30,7 @@ public class Main {
 
 import java.util.*;
 
-public class Exercise_12_03 {
+public class randomArray {
 	public static void main(String[] args) {
 		// Create a Scanner
 		Scanner input = new Scanner(System.in);
